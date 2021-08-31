@@ -18,3 +18,13 @@ spring:
     mode: HTML5
 #    content-type: text/html
 
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#      cors:
+#        allowed-origins: "*"
+#        allowed-methods: "*"
+

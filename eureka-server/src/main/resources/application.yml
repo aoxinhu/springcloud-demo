@@ -13,3 +13,4 @@ spring:
         application:
                 name: eureka-server
                 #表示这个微服务本身的名称是 eureka-server
+

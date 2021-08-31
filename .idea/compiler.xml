@@ -10,10 +10,10 @@
         <module name="eureka-server" />
         <module name="product-data-service" />
         <module name="product-view-service-feign" />
+        <module name="product-view-service-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="product-view-service-ribbon" target="8" />
       <module name="spring-cloud-starter-config" target="1.7" />
     </bytecodeTargetLevel>
   </component>

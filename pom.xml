@@ -7,6 +7,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
+    <!--This version is a problem,you'd better not change it temporally-->
     <version>2.0.3.RELEASE</version>
     <relativePath/>
   </parent>
@@ -15,12 +16,17 @@
     <module>eureka-server</module>
     <module>product-data-service</module>
     <module>product-view-service-feign</module>
+    <module>product-view-service-ribbon</module>
     <module>config-server</module>
   </modules>
 
-  <groupId>org.example</groupId>
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <name>demo</name>
+  <groupId>org.example</groupId>
   <artifactId>demo</artifactId>
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -36,6 +42,7 @@
   </properties>
 
   <dependencies>
+
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
@@ -47,6 +54,7 @@
       <artifactId>hutool-all</artifactId>
       <version>4.3.1</version>
     </dependency>
+
   </dependencies>
 
   <dependencyManagement>
